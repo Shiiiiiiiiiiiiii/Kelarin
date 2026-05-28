@@ -7,7 +7,7 @@ A Flutter-based productivity application that combines a focus timer (Pomodoro-s
 - ⏱️ **Focus Timer** - Customizable Pomodoro-style timer with visual progress indicator
 - 📋 **Task Management** - Create, track, and manage your daily tasks
 - 🔒 **Strict Mode** - Disable pause functionality for deep focus sessions
-- 🎵 **Audio Notifications** - Sound alerts when focus sessions complete
+- 🔔 **Notifications** - Daily reminders and countdowns
 - 🌙 **Dark Mode Support** - Full theme support for day and night modes
 - 🔐 **Authentication** - Firebase Authentication with Google Sign-In
 - ☁️ **Cloud Sync** - Cloud Firestore for task synchronization across devices

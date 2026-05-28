@@ -225,11 +225,11 @@ Kelarin menggunakan `flutter_local_notifications` untuk mengirim notifikasi tanp
 ### Kenapa Pakai SharedPreferences untuk Status Reminder?
 
 ```dart
-// ✅ BENAR: Simpan status di SharedPreferences
+// BENAR: Simpan status di SharedPreferences
 final prefs = await SharedPreferences.getInstance();
 await prefs.setBool('pref_daily_reminder_enabled', true);
 
-// ❌ SALAH: Jangan cek via pendingNotificationRequests()
+// SALAH: Jangan cek via pendingNotificationRequests()
 // Inexact alarms TIDAK muncul di pending requests!
 ```
 
